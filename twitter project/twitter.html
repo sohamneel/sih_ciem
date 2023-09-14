@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Twitter login</title>
+	<link rel="stylesheet" href="twitter.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+	<main class="twt-main">
+		<section class="twt-login">
+				<form class="login-box">
+					<input class="input-box" type="email" placeholder="Phone, email, or username">
+					<input class="input-box" type="password" placeholder="Password">
+					<a class="login-link" href="#">Forgot password?</a>
+					<button class="login-btn">Log in</button>
+				</form>
+				<div class="slow-login">
+					<img class="login-bird" src="D:\twitter project\bird.jpg" alt="bird" background-color : "WHITE">
+					<button class="login-small-display signin-btn pri-btn">Log in</button>
+					<span class="front-para">See what’s happening in the world right now</span>
+					<span class="join">Join us today.</span>
+					<script>function welcome() {window.open("file:///D:/twitter%20project/signup_page.html")}</script>
+					<button class="signup-btn pri-btn" onclick="welcome()">Sign Up</button>
+					<button class="signin-btn pri-btn">Continue as Guest</button>
+				</div>
+		</section>
+		<section class="twt-features">
+			<div class="features-div">
+				<img class="twt-icon" src='https://image.ibb.co/bzvrkp/search_icon.png'>
+				<p>Follow your interests.</p>
+				<img class="twt-icon" src="https://image.ibb.co/mZPTWU/heart_icon.png">
+				<p>Hear what people are talking about.</p>
+				<img class="twt-icon" src="https://image.ibb.co/kw2Ad9/conv_icon.png">
+				<p>Join the conversation.</p>
+			</div>
+		</section>
+		<footer>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Help Center</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Status</a></li>
+				<li><a href="#">Jobs</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Cookies</a></li>
+				<li><a href="#">Ads info</a></li>
+				<li><a href="#">Brand</a></li>
+				<li><a href="#">Apps</a></li>
+				<li><a href="#">Advertise</a></li>
+				<li><a href="#">Marketing</a></li>
+				<li><a href="#">Businesses</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#">Directory</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
+		</footer>
+	</main>
+</body>
+</html>
+<!--<script>
+        const loginForm = document.getElementById("loginForm");
+        const errorMessage = document.getElementById("errorMessage");
+
+        loginForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+            const username = loginForm.elements["username"].value;
+            const password = loginForm.elements["password"].value;
+
+            // You can implement your own logic for user authentication here.
+            // For simplicity, let's assume a hardcoded username and password.
+            if (username === "user" && password === "passwor d") {
+                errorMessage.textContent = "Login successful!";
+                errorMessage.style.color = "green";
+            } else {
+                errorMessage.textContent = "Invalid username or password.";
+                errorMessage.style.color = "red";
+            }
+        });
+    </script>-->
+</body>
+</html>
